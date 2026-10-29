@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+СберБанк Онлайн,ru.sberbankmobile,Финансы,"appmetrica,sberpay","В коде найден пакет com.yandex.metrica; В AndroidManifest.xml найдена активность ru.sberbank.sberpay.SberPayActivity"
+Ozon,ru.ozon.app.android,Покупки,"appmetrica,rustore-push,vk-id","В коде найден io.appmetrica.analytics; В манифесте найден сервис ru.rustore.sdk.push.RuStorePushService; Обнаружены классы com.vk.id"
+Яндекс Карты,ru.yandex.yandexmaps,Навигация,"appmetrica,yandex-mapkit","В коде найден пакет com.yandex.metrica; В папке lib/arm64-v8a обнаружена нативная библиотека libmapkit.so"
+ВКонтакте,com.vkontakte.android,Социальные сети,"vk-id,mytracker,appmetrica","В коде найдены классы com.vk.api.sdk; Обнаружены пакеты com.my.tracker; В манифесте присутствует сервис com.yandex.metrica.MetricaService"
+Wildberries,com.wildberries.ru,Покупки,"appmetrica,rustore-push","В коде найден io.appmetrica.analytics; В манифесте найден сервис RuStorePushService; В ресурсах найден ключ API AppMetrica"
+Тинькофф,com.idamob.tinkoff.android,Финансы,"tinkoff-acquiring,appmetrica","В коде найдены классы ru.tinkoff.acquiring.sdk; В папке lib/arm64-v8a обнаружена нативная библиотека libcardio.so; В коде найден com.yandex.metrica"
+Авито,com.avito.android,Покупки,"appmetrica,huawei-hms-push","В манифесте найдены сервисы com.huawei.hms.push.HmsMessageService; В коде обнаружен пакет com.yandex.metrica"
+Яндекс Go,ru.yandex.taxi,Навигация,"appmetrica,yandex-mapkit,rustore-push","Обнаружены классы com.yandex.mapkit; В коде найден com.yandex.metrica; В манифесте найден RuStorePushService"
+Мир Pay,ru.nspk.mirpay,Финансы,"sberpay,appmetrica","В коде найден пакет ru.sberbank.sberpay; В манифесте присутствует сервис com.yandex.metrica.MetricaService"
+Ozon Seller,ru.ozon.seller,Бизнес,"firebase-fcm,firebase-analytics","В манифесте найден сервис com.google.firebase.messaging.FirebaseMessagingService; В коде найден com.google.firebase.analytics"

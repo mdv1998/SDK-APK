@@ -1,0 +1,139 @@
+{
+  "sdks": [
+    {
+      "id": "appmetrica",
+      "name": "AppMetrica",
+      "category": "analytics",
+      "package_prefixes": ["com.yandex.metrica", "io.appmetrica.analytics"],
+      "manifest_signatures": ["com.yandex.metrica.MetricaService", "com.yandex.metrica.CrashService"],
+      "native_libs": ["libappmetrica.so"],
+      "official_repo": "https://github.com/appmetrica/appmetrica-sdk-android"
+    },
+    {
+      "id": "rustore-push",
+      "name": "RuStore Push SDK",
+      "category": "push",
+      "package_prefixes": ["ru.rustore.sdk.push"],
+      "manifest_signatures": ["ru.rustore.sdk.push.RuStorePushService"],
+      "native_libs": [],
+      "official_repo": "https://github.com/rustore-dev/rustore-sdk-push-example"
+    },
+    {
+      "id": "vk-id",
+      "name": "VK ID SDK",
+      "category": "auth",
+      "package_prefixes": ["com.vk.api.sdk", "com.vk.id"],
+      "manifest_signatures": ["com.vk.id.internal.auth.VkAuthActivity"],
+      "native_libs": [],
+      "official_repo": "https://github.com/VKCOM/vkid-android-sdk"
+    },
+    {
+      "id": "sberpay",
+      "name": "SberPay SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.sberbank.sberpay", "com.sberbank.sberpay"],
+      "manifest_signatures": ["ru.sberbank.sberpay.SberPayActivity"],
+      "native_libs": [],
+      "official_repo": "https://developers.sber.ru/docs/ru/sberpay/android/overview"
+    },
+    {
+      "id": "tinkoff-acquiring",
+      "name": "Tinkoff Acquiring SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.tinkoff.acquiring.sdk"],
+      "manifest_signatures": ["ru.tinkoff.acquiring.sdk.ui.activities.CardActivity"],
+      "native_libs": ["libcardio.so"],
+      "official_repo": "https://opensource.tbank.ru/mobile-tech/asdk-android"
+    },
+    {
+      "id": "mytracker",
+      "name": "MyTracker SDK",
+      "category": "analytics",
+      "package_prefixes": ["com.my.tracker"],
+      "manifest_signatures": ["com.my.tracker.MyTrackerService"],
+      "native_libs": [],
+      "official_repo": "https://github.com/myTrackerSDK/mytracker-android"
+    },
+    {
+      "id": "yandex-mapkit",
+      "name": "Yandex MapKit",
+      "category": "maps",
+      "package_prefixes": ["com.yandex.mapkit"],
+      "manifest_signatures": ["com.yandex.mapkit.MapKitFactory"],
+      "native_libs": ["libmapkit.so"],
+      "official_repo": "https://github.com/yandex/mapkit-android-demo"
+    },
+    {
+      "id": "huawei-hms-push",
+      "name": "Huawei HMS Push",
+      "category": "push",
+      "package_prefixes": ["com.huawei.hms.push", "com.huawei.hms.aaid"],
+      "manifest_signatures": ["com.huawei.hms.push.HmsMessageService"],
+      "native_libs": [],
+      "official_repo": "https://developer.huawei.com/consumer/en/hms/huawei-pushkit/"
+    },
+    {
+      "id": "firebase-fcm",
+      "name": "Firebase Cloud Messaging",
+      "category": "push",
+      "package_prefixes": ["com.google.firebase.messaging"],
+      "manifest_signatures": ["com.google.firebase.messaging.FirebaseMessagingService"],
+      "native_libs": [],
+      "official_repo": "https://github.com/firebase/quickstart-android"
+    },
+    {
+      "id": "firebase-analytics",
+      "name": "Firebase Analytics",
+      "category": "analytics",
+      "package_prefixes": ["com.google.firebase.analytics"],
+      "manifest_signatures": ["com.google.android.gms.measurement.AppMeasurementService"],
+      "native_libs": [],
+      "official_repo": "https://firebase.google.com/docs/analytics/android/start"
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps SDK",
+      "category": "maps",
+      "package_prefixes": ["com.google.android.gms.maps"],
+      "manifest_signatures": ["com.google.android.gms.maps.MapsInitializer"],
+      "native_libs": ["libgmm-jni.so"],
+      "official_repo": "https://developers.google.com/maps/documentation/android-sdk/overview"
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer",
+      "category": "analytics",
+      "package_prefixes": ["com.appsflyer"],
+      "manifest_signatures": ["com.appsflyer.AppsFlyerLib"],
+      "native_libs": [],
+      "official_repo": "https://github.com/AppsFlyerSDK/appsflyer-android-sdk"
+    },
+    {
+      "id": "adjust",
+      "name": "Adjust SDK",
+      "category": "analytics",
+      "package_prefixes": ["com.adjust.sdk"],
+      "manifest_signatures": ["com.adjust.sdk.AdjustReferrerReceiver"],
+      "native_libs": [],
+      "official_repo": "https://github.com/adjust/android_sdk"
+    },
+    {
+      "id": "unity-ads",
+      "name": "Unity Ads",
+      "category": "ads",
+      "package_prefixes": ["com.unity3d.ads", "com.unity3d.services"],
+      "manifest_signatures": ["com.unity3d.services.ads.adunit.AdUnitActivity"],
+      "native_libs": [],
+      "official_repo": "https://github.com/Unity-Technologies/unity-ads-android"
+    },
+    {
+      "id": "rustore-update",
+      "name": "RuStore Update SDK",
+      "category": "crash_reporting",
+      "package_prefixes": ["ru.rustore.sdk.appupdate"],
+      "manifest_signatures": ["ru.rustore.sdk.appupdate.AppUpdateService"],
+      "native_libs": [],
+      "official_repo": "https://github.com/rustore-dev/rustore-update-java-example"
+    }
+  ]
+}
