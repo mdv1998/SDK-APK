@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+Яндекс Навигатор,ru.yandex.yandexnavi,Навигация,"appmetrica,yandex-ads,firebase-fcm","Package com.yandex.metrica, com.yandex.mobile.ads, com.google.firebase.messaging"
+Кинопоиск,ru.kinopoisk,Развлечения,"appmetrica,yandex-ads,firebase-fcm,huawei-push","Package com.yandex.metrica, com.yandex.mobile.ads, com.google.firebase.messaging, com.huawei.hms.push"
+Госуслуги,ru.rostel,Госуслуги,"appmetrica,firebase-fcm,huawei-push,sentry-android","Package com.yandex.metrica, com.google.firebase.messaging, com.huawei.hms.push, io.sentry.android"
+Likee,video.like,Соцсети,"vk-id,appmetrica,yandex-ads,firebase-fcm,huawei-push,mytracker","Package com.vk.id, com.yandex.metrica, com.yandex.mobile.ads, com.google.firebase.messaging, com.huawei.hms.push, com.my.tracker"
+Bigo Live,sg.bigo.live,Стриминг,"vk-id,firebase-fcm,firebase-analytics,sentry-android","Package com.vk.id, com.google.firebase.messaging, com.google.firebase.analytics, io.sentry.android"
+UC Browser,com.UCMobile,Инструменты,"huawei-push,firebase-fcm","Package com.huawei.hms.push, com.google.firebase.messaging"
+Самокат,ru.sbcs.store,Покупки,"appmetrica,firebase-fcm,firebase-analytics,huawei-push,sentry-android","Package com.yandex.metrica, com.google.firebase.messaging, com.google.firebase.analytics, com.huawei.hms.push, io.sentry.android"
+Магнит,ru.tander.magnit,Покупки,"appmetrica,firebase-fcm,firebase-analytics,huawei-push,vk-id,sentry-android","Package com.yandex.metrica, com.google.firebase.messaging, com.google.firebase.analytics, com.huawei.hms.push, com.vk.id, io.sentry.android"
+Пятёрочка,ru.pyaterochka.app.browser,Покупки,"appmetrica,mytracker,firebase-fcm,firebase-analytics,sentry-android","Package com.yandex.metrica, com.my.tracker, com.google.firebase.messaging, com.google.firebase.analytics, io.sentry.android"
+СберБанк Онлайн,ru.sberbankmobile,Финансы,"appmetrica,firebase-fcm,firebase-analytics,huawei-push","Package com.yandex.metrica, com.google.firebase.messaging, com.google.firebase.analytics, com.huawei.hms.push"
