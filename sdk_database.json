@@ -1,0 +1,167 @@
+{
+  "sdks": [
+    {
+      "id": "rustore-push",
+      "name": "RuStore Push SDK",
+      "category": "push",
+      "package_prefixes": ["ru.rustore.sdk.push"],
+      "manifest_signatures": [
+        "ru.rustore.sdk.push.messaging.RuStoreMessagingService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://rustore.ru"
+    },
+    {
+      "id": "appmetrica",
+      "name": "Yandex AppMetrica",
+      "category": "analytics",
+      "package_prefixes": ["io.appmetrica.analytics", "com.yandex.metrica"],
+      "manifest_signatures": [
+        "com.yandex.metrica.IMetricaService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "yandex-ads",
+      "name": "Yandex Mobile Ads SDK",
+      "category": "ads",
+      "package_prefixes": ["com.yandex.mobile.ads"],
+      "manifest_signatures": [
+        "com.yandex.mobile.ads.common.AdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "vk-id",
+      "name": "VK ID SDK",
+      "category": "auth",
+      "package_prefixes": ["com.vk.id"],
+      "manifest_signatures": [
+        "com.vk.id.auth.VKAuthActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com"
+    },
+    {
+      "id": "mytracker",
+      "name": "MyTracker Analytics",
+      "category": "analytics",
+      "package_prefixes": ["com.my.tracker"],
+      "manifest_signatures": [
+        "com.my.tracker.MyTracker"
+      ],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "tinkoff-acquiring",
+      "name": "T-Bank Acquiring SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.tinkoff.acquiring.sdk"],
+      "manifest_signatures": [
+        "ru.tinkoff.acquiring.sdk.ui.activities.PaymentActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com"
+    },
+    {
+      "id": "dgis-maps",
+      "name": "2GIS Map SDK",
+      "category": "maps",
+      "package_prefixes": ["ru.dgis.sdk"],
+      "manifest_signatures": [
+        "ru.dgis.sdk.DGis"
+      ],
+      "native_libs": ["lib2gis_sdk.so"],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "sentry-android",
+      "name": "Sentry Android",
+      "category": "crash_reporting",
+      "package_prefixes": ["io.sentry.android"],
+      "manifest_signatures": [
+        "io.sentry.android.core.SentryInitProvider"
+      ],
+      "native_libs": ["libsentry.so"],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "sbp-pay",
+      "name": "Система Быстрых Платежей SDK",
+      "category": "payments",
+      "package_prefixes": ["ru.nspk.sbp.sdk"],
+      "manifest_signatures": [
+        "ru.nspk.sbp.sdk.ui.SbpPaymentActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com"
+    },
+    {
+      "id": "vk-ads",
+      "name": "VK AdBrix / MyTarget SDK",
+      "category": "ads",
+      "package_prefixes": ["com.mytarget.ads"],
+      "manifest_signatures": [
+        "com.mytarget.ads.MyTargetActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "amplitude-analytics",
+      "name": "Amplitude Android SDK",
+      "category": "analytics",
+      "package_prefixes": ["com.amplitude.android"],
+      "manifest_signatures": [],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "t-id",
+      "name": "T-Bank ID SDK",
+      "category": "auth",
+      "package_prefixes": ["ru.tinkoff.id"],
+      "manifest_signatures": [
+        "ru.tinkoff.id.TinkoffIdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com"
+    },
+    {
+      "id": "huawei-push",
+      "name": "Huawei HMS Push",
+      "category": "push",
+      "package_prefixes": ["com.huawei.hms.push"],
+      "manifest_signatures": [
+        "com.huawei.hms.support.api.push.service.HmsMsgService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://huawei.com"
+    },
+    {
+      "id": "onesignal-push",
+      "name": "OneSignal Push SDK",
+      "category": "push",
+      "package_prefixes": ["com.onesignal"],
+      "manifest_signatures": [
+        "com.onesignal.FCMBroadcastReceiver"
+      ],
+      "native_libs": [],
+      "official_repo": "https://apache.org"
+    },
+    {
+      "id": "uxcam-analytics",
+      "name": "UXCam Visual Analytics",
+      "category": "analytics",
+      "package_prefixes": ["com.uxcam"],
+      "manifest_signatures": [
+        "com.uxcam.UXCam"
+      ],
+      "native_libs": ["libuxcam.so"],
+      "official_repo": "https://apache.org"
+    }
+  ]
+}
