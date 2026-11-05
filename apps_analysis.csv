@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+Ozon,ru.ozon.app.android,Покупки,"appmetrica,mytracker,rustore-push,vk-id,sentry-android","Package io.appmetrica.analytics, com.my.tracker; Native libs: libsentry.so, libmaps-mobile.so, libozon-id-sdk.so, libsalutevision.so"
+2ГИС,ru.dublgis.dgismobile,Навигация,"dgis-maps,appmetrica,rustore-push,mytracker,firebase-analytics","Native libs: libbv4android.so, libcrashlytics.so, libsqlcipher.so; Package ru.dgis.sdk, io.appmetrica.analytics"
+Яндекс Карты,ru.yandex.yandexmaps,Навигация,"yandex-maps,appmetrica,firebase-analytics","Native libs: libmaps-mobile.so, libappmetrica-native.so, libcrashlytics.so; Package com.yandex.mapkit"
+Авито,com.avito.android,Объявления,"yandex-maps,sentry-android,firebase-analytics,appmetrica","Native libs: libmaps-mobile.so, libsentry.so, libcrashlytics.so, libtensorflowlite_jni.so"
+Т-Банк,com.idamob.tinkoff.android,Финансы,"tinkoff-acquiring,appmetrica,rustore-push","Package ru.tinkoff.acquiring.sdk, io.appmetrica.analytics, ru.rustore.sdk.push"
+СберБанк Онлайн,ru.sberbankmobile,Финансы,"appmetrica,rustore-push,huawei-push","Package io.appmetrica.analytics, ru.rustore.sdk.push, com.huawei.hms.push"
+Wildberries,com.wildberries.ru,Покупки,"appmetrica,mytracker,rustore-push","Package io.appmetrica.analytics, com.my.tracker, ru.rustore.sdk.push"
+RUTUBE,ru.rutube.app,Развлечения,"appmetrica,yandex-ads,firebase-fcm,google-signin","Package io.appmetrica.analytics, com.yandex.mobile.ads, com.google.firebase.messaging, com.google.android.gms.auth.api.signin"
+Яндекс Музыка,ru.yandex.music,Развлечения,"appmetrica,yandex-ads,firebase-fcm,google-signin","Package io.appmetrica.analytics, com.yandex.mobile.ads, com.google.firebase.messaging, com.google.android.gms.auth.api.signin"
+Telegram,org.telegram.messenger,Общение,firebase-fcm,Package com.google.firebase.messaging; service com.google.firebase.messaging.FirebaseMessagingService в AndroidManifest.xml
