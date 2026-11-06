@@ -4,53 +4,49 @@
       "id": "rustore-push",
       "name": "RuStore Push SDK",
       "category": "push",
-      "package_prefixes": ["ru.rustore.sdk.push"],
+      "package_prefixes": [
+        "ru.rustore.sdk.push"
+      ],
       "manifest_signatures": [
-        "ru.rustore.sdk.push.fcm.RuStoreFcmMessagingService",
-        "ru.rustore.sdk.push.messaging.RuStoreMessagingService"
+        "ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider"
       ],
       "native_libs": [],
-      "official_repo": "https://maven.rustore.ru"
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
     },
     {
       "id": "rustore-pay",
-      "name": "RuStore Pay / Billing SDK",
+      "name": "RuStore Pay SDK",
       "category": "payments",
-      "package_prefixes": ["ru.rustore.sdk.billingclient"],
+      "package_prefixes": [
+        "ru.rustore.sdk.billingclient"
+      ],
       "manifest_signatures": [
         "ru.rustore.sdk.billingclient.presentation.BillingActivity"
       ],
       "native_libs": [],
-      "official_repo": "https://maven.rustore.ru"
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
     },
     {
       "id": "appmetrica",
       "name": "Yandex AppMetrica",
       "category": "analytics",
-      "package_prefixes": ["com.yandex.metrica", "io.appmetrica.analytics"],
+      "package_prefixes": [
+        "io.appmetrica.analytics",
+        "com.yandex.metrica"
+      ],
       "manifest_signatures": [
-        "com.yandex.metrica.IMetricaService",
-        "com.yandex.metrica.ApiKey"
+        "com.yandex.metrica.IMetricaService"
       ],
       "native_libs": [],
-      "official_repo": "https://repo.maven.apache.org/maven2"
-    },
-    {
-      "id": "yandex-maps",
-      "name": "Yandex MapKit SDK",
-      "category": "maps",
-      "package_prefixes": ["com.yandex.mapkit"],
-      "manifest_signatures": [
-        "com.yandex.android.geo.API_KEY"
-      ],
-      "native_libs": ["libyandex-mapkit-native.so"],
-      "official_repo": "https://maven.google.com"
+      "official_repo": "https://github.com/appmetrica/appmetrica-sdk-android"
     },
     {
       "id": "yandex-ads",
       "name": "Yandex Mobile Ads SDK",
       "category": "ads",
-      "package_prefixes": ["com.yandex.mobile.ads"],
+      "package_prefixes": [
+        "com.yandex.mobile.ads"
+      ],
       "manifest_signatures": [
         "com.yandex.mobile.ads.common.AdActivity"
       ],
@@ -61,7 +57,9 @@
       "id": "vk-id",
       "name": "VK ID SDK",
       "category": "auth",
-      "package_prefixes": ["com.vk.id", "com.vk.sdk"],
+      "package_prefixes": [
+        "com.vk.id"
+      ],
       "manifest_signatures": [
         "com.vk.id.auth.VKAuthActivity"
       ],
@@ -72,73 +70,50 @@
       "id": "mytracker",
       "name": "MyTracker Analytics",
       "category": "analytics",
-      "package_prefixes": ["com.my.tracker"],
+      "package_prefixes": [
+        "com.my.tracker"
+      ],
       "manifest_signatures": [
         "com.my.tracker.MyTracker"
       ],
       "native_libs": [],
-      "official_repo": "https://repo.maven.apache.org/maven2"
-    },
-    {
-      "id": "sber-id",
-      "name": "Sber ID SDK",
-      "category": "auth",
-      "package_prefixes": ["ru.sberbank.sberid"],
-      "manifest_signatures": [
-        "ru.sberbank.sberid.SberIdActivity"
-      ],
-      "native_libs": [],
-      "official_repo": "https://github.com/sberbank"
-    },
-    {
-      "id": "sberpay",
-      "name": "SberPay Mobile SDK",
-      "category": "payments",
-      "package_prefixes": ["ru.sberbank.pay"],
-      "manifest_signatures": [
-        "ru.sberbank.pay.SberPayActivity"
-      ],
-      "native_libs": [],
-      "official_repo": "https://github.com/sberbank"
+      "official_repo": "https://github.com/myTrackerSDK/mytracker-android"
     },
     {
       "id": "tinkoff-acquiring",
       "name": "T-Bank Acquiring SDK",
       "category": "payments",
-      "package_prefixes": ["ru.tinkoff.acquiring.sdk"],
+      "package_prefixes": [
+        "ru.tinkoff.acquiring.sdk"
+      ],
       "manifest_signatures": [
         "ru.tinkoff.acquiring.sdk.ui.activities.PaymentActivity"
       ],
       "native_libs": [],
-      "official_repo": "https://github.com/Tinkoff/acquiring-sdk-android"
+      "official_repo": "https://github.com/tinkoff-mobile-tech/tinkoff-asdk-android"
     },
     {
-      "id": "dgis-maps",
-      "name": "2GIS Map SDK",
-      "category": "maps",
-      "package_prefixes": ["ru.dgis.sdk"],
-      "manifest_signatures": [
-        "ru.dgis.sdk.DGis"
+      "id": "sentry-android",
+      "name": "Sentry Android",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "io.sentry.android"
       ],
-      "native_libs": ["lib2gis_sdk.so"],
-      "official_repo": "https://repo.maven.apache.org/maven2"
-    },
-    {
-      "id": "huawei-push",
-      "name": "Huawei HMS Push SDK",
-      "category": "push",
-      "package_prefixes": ["com.huawei.hms.push"],
       "manifest_signatures": [
-        "com.huawei.hms.support.api.push.service.HmsMsgService"
+        "io.sentry.android.core.SentryInitProvider"
       ],
-      "native_libs": [],
-      "official_repo": "https://developer.huawei.com/repo"
+      "native_libs": [
+        "libsentry.so"
+      ],
+      "official_repo": "https://github.com/getsentry/sentry-java"
     },
     {
       "id": "firebase-fcm",
       "name": "Firebase Cloud Messaging",
       "category": "push",
-      "package_prefixes": ["com.google.firebase.messaging"],
+      "package_prefixes": [
+        "com.google.firebase.messaging"
+      ],
       "manifest_signatures": [
         "com.google.firebase.messaging.FirebaseMessagingService"
       ],
@@ -146,26 +121,32 @@
       "official_repo": "https://maven.google.com"
     },
     {
-      "id": "firebase-analytics",
-      "name": "Google Analytics for Firebase",
-      "category": "analytics",
-      "package_prefixes": ["com.google.firebase.analytics"],
-      "manifest_signatures": [
-        "com.google.android.gms.measurement.AppMeasurementService"
+      "id": "firebase-crashlytics",
+      "name": "Firebase Crashlytics",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "com.google.firebase.crashlytics"
       ],
-      "native_libs": [],
-      "official_repo": "https://maven.google.com"
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+      ],
+      "native_libs": [
+        "libcrashlytics.so"
+      ],
+      "official_repo": "https://github.com/firebase/firebase-android-sdk"
     },
     {
-      "id": "sentry-android",
-      "name": "Sentry Android Crash Reporting",
-      "category": "crash_reporting",
-      "package_prefixes": ["io.sentry.android"],
-      "manifest_signatures": [
-        "io.sentry.android.core.SentryInitProvider"
+      "id": "t-id",
+      "name": "T-Bank ID SDK",
+      "category": "auth",
+      "package_prefixes": [
+        "ru.tinkoff.id"
       ],
-      "native_libs": ["libsentry.so"],
-      "official_repo": "https://repo.maven.apache.org/maven2"
+      "manifest_signatures": [
+        "ru.tinkoff.id.TinkoffIdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://opensource.tbank.ru/mobile-tech/T-ID-Android"
     }
   ]
 }

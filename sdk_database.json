@@ -1,0 +1,204 @@
+{
+  "sdks": [
+    {
+      "id": "rustore-push",
+      "name": "RuStore Push SDK",
+      "category": "push",
+      "package_prefixes": [
+        "ru.rustore.sdk.push"
+      ],
+      "manifest_signatures": [
+        "ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider"
+      ],
+      "native_libs": [],
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
+    },
+    {
+      "id": "rustore-pay",
+      "name": "RuStore Pay SDK",
+      "category": "payments",
+      "package_prefixes": [
+        "ru.rustore.sdk.billingclient"
+      ],
+      "manifest_signatures": [
+        "ru.rustore.sdk.billingclient.presentation.BillingActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed/"
+    },
+    {
+      "id": "appmetrica",
+      "name": "Yandex AppMetrica",
+      "category": "analytics",
+      "package_prefixes": [
+        "io.appmetrica.analytics",
+        "com.yandex.metrica"
+      ],
+      "manifest_signatures": [
+        "com.yandex.metrica.IMetricaService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/appmetrica/appmetrica-sdk-android"
+    },
+    {
+      "id": "yandex-ads",
+      "name": "Yandex Mobile Ads SDK",
+      "category": "ads",
+      "package_prefixes": [
+        "com.yandex.mobile.ads"
+      ],
+      "manifest_signatures": [
+        "com.yandex.mobile.ads.common.AdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "id": "vk-id",
+      "name": "VK ID SDK",
+      "category": "auth",
+      "package_prefixes": [
+        "com.vk.id"
+      ],
+      "manifest_signatures": [
+        "com.vk.id.auth.VKAuthActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/VKCOM/vkid-android-sdk"
+    },
+    {
+      "id": "mytracker",
+      "name": "MyTracker Analytics",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.my.tracker"
+      ],
+      "manifest_signatures": [
+        "com.my.tracker.MyTracker"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/myTrackerSDK/mytracker-android"
+    },
+    {
+      "id": "tinkoff-acquiring",
+      "name": "T-Bank Acquiring SDK",
+      "category": "payments",
+      "package_prefixes": [
+        "ru.tinkoff.acquiring.sdk"
+      ],
+      "manifest_signatures": [
+        "ru.tinkoff.acquiring.sdk.ui.activities.PaymentActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://github.com/tinkoff-mobile-tech/tinkoff-asdk-android"
+    },
+    {
+      "id": "sentry-android",
+      "name": "Sentry Android",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "io.sentry.android"
+      ],
+      "manifest_signatures": [
+        "io.sentry.android.core.SentryInitProvider"
+      ],
+      "native_libs": [
+        "libsentry.so"
+      ],
+      "official_repo": "https://github.com/getsentry/sentry-java"
+    },
+    {
+      "id": "firebase-fcm",
+      "name": "Firebase Cloud Messaging",
+      "category": "push",
+      "package_prefixes": [
+        "com.google.firebase.messaging"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.messaging.FirebaseMessagingService"
+      ],
+      "native_libs": [],
+      "official_repo": "https://maven.google.com"
+    },
+    {
+      "id": "firebase-crashlytics",
+      "name": "Firebase Crashlytics",
+      "category": "crash_reporting",
+      "package_prefixes": [
+        "com.google.firebase.crashlytics"
+      ],
+      "manifest_signatures": [
+        "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+      ],
+      "native_libs": [
+        "libcrashlytics.so"
+      ],
+      "official_repo": "https://github.com/firebase/firebase-android-sdk"
+    },
+    {
+      "id": "t-id",
+      "name": "T-Bank ID SDK",
+      "category": "auth",
+      "package_prefixes": [
+        "ru.tinkoff.id"
+      ],
+      "manifest_signatures": [
+        "ru.tinkoff.id.TinkoffIdActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://opensource.tbank.ru/mobile-tech/T-ID-Android"
+    },
+    {
+      "id": "yandex-maps",
+      "name": "Yandex MapKit SDK",
+      "category": "maps",
+      "package_prefixes": [
+        "com.yandex.mapkit"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [
+        "libmaps-mobile.so"
+      ],
+      "official_repo": "https://repo.maven.apache.org/maven2/com/yandex/android/maps.mobile/"
+    },
+    {
+      "id": "google-signin",
+      "name": "Google Sign-In",
+      "category": "auth",
+      "package_prefixes": [
+        "com.google.android.gms.auth.api.signin"
+      ],
+      "manifest_signatures": [
+        "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+      ],
+      "native_libs": [],
+      "official_repo": "https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-auth/"
+    },
+    {
+      "id": "appsflyer",
+      "name": "AppsFlyer Android SDK",
+      "category": "analytics",
+      "package_prefixes": [
+        "com.appsflyer"
+      ],
+      "manifest_signatures": [
+        "com.appsflyer.MultipleInstallBroadcastReceiver"
+      ],
+      "native_libs": [],
+      "official_repo": "https://repo.maven.apache.org/maven2/com/appsflyer/af-android-sdk/"
+    },
+    {
+      "id": "mlkit-barcode",
+      "name": "Google ML Kit Barcode Scanning",
+      "category": "utility",
+      "package_prefixes": [
+        "com.google.mlkit.vision.barcode"
+      ],
+      "manifest_signatures": [],
+      "native_libs": [
+        "libbarhopper_v3.so"
+      ],
+      "official_repo": "https://dl.google.com/dl/android/maven2/com/google/mlkit/barcode-scanning/"
+    }
+  ]
+}
