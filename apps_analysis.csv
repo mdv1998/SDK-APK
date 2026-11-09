@@ -1,0 +1,11 @@
+app_name,package_name,category,detected_sdks,detection_evidence
+СберБанк Онлайн,ru.sberbankmobile,Финансы,"sber-id, sberpay, rustore-push, appmetrica","Package ru.sberbank.sberid, ru.sberbank.pay, ru.rustore.sdk.push; Manifest com.yandex.metrica.IMetricaService"
+ВТБ Онлайн,ru.vtb24.mobilebanking.android,Финансы,"appmetrica, firebase-fcm, huawei-push","Package io.appmetrica.analytics, com.google.firebase.messaging, com.huawei.hms.push"
+Ozon,ru.ozon.app.android,Покупки,"appmetrica, mytracker, rustore-push, vk-id","Package io.appmetrica.analytics, com.my.tracker, ru.rustore.sdk.push, com.vk.id"
+Wildberries,com.wildberries.ru,Покупки,"appmetrica, mytracker, rustore-push","Package io.appmetrica.analytics, com.my.tracker; Manifest ru.rustore.sdk.push.fcm.RuStoreFcmMessagingService"
+Авито,com.avito.android,Объявления,"appmetrica, rustore-push, yandex-ads, vk-id","Package io.appmetrica.analytics, ru.rustore.sdk.push, com.yandex.mobile.ads, com.vk.id"
+Яндекс Go,ru.yandex.taxi,Еда и навигация,"yandex-maps, appmetrica, yandex-ads, rustore-push","Native lib libyandex-mapkit-native.so; Package com.yandex.mapkit, io.appmetrica.analytics, com.yandex.mobile.ads"
+2ГИС,ru.dublgis.dgismobile,Навигация,"dgis-maps, appmetrica, rustore-push","Native lib lib2gis_sdk.so; Package ru.dgis.sdk, io.appmetrica.analytics"
+VK Музыка,com.uma.musicvk,Музыка,"vk-id, appmetrica, rustore-push, yandex-ads","Package com.vk.id, io.appmetrica.analytics, ru.rustore.sdk.push, com.yandex.mobile.ads"
+RuStore,ru.vk.store,Инструменты,"rustore-push, rustore-pay, appmetrica","Package ru.rustore.sdk.push, ru.rustore.sdk.billingclient, io.appmetrica.analytics"
+Магнит,ru.tander.magnit,Покупки,"appmetrica, rustore-push, firebase-fcm","Package io.appmetrica.analytics, ru.rustore.sdk.push, com.google.firebase.messaging"
